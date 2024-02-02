@@ -1,4 +1,4 @@
-
+import AboutUs from "./AboutUs"
 const Header = () => {
     return (
         <>
@@ -23,7 +23,7 @@ const Header = () => {
                             <li><a href="">About Us</a></li>
                             <li><a href="">Pages</a></li>
                             <li><a href="">Classes</a></li>
-                            <li><a href="">Contact Us</a></li>
+                            <li><a href="Contact.jsx">Contact Us</a></li>
                             <li className="bg-[#A1F75E] text-black px-10 py-3 cursor-pointer rounded-xl"><a href="">Book Class</a></li>
                             
                         </ul>
